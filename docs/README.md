@@ -45,7 +45,7 @@ PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack | Gulp | Ki
 
 ---
 
-## 業務経歴
+## 主な業務経歴
 
 ### イベント系チケットアプリのAPI開発/CMS開発【TypeScript, Vue, Laravel, AWS】(2022年〜2023年）
 
