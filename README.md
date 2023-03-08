@@ -1,8 +1,8 @@
-# Kohei Ogura resume
+# Resume
 
 ## Here
 
-https://github.com/gurico0516/resume
+https://github.com/gurico0516/docs/
 
 ## Features
 
