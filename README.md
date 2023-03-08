@@ -2,7 +2,7 @@
 
 ## Here
 
-https://github.com/gurico0516/docs/
+https://github.com/gurico0516/resume/tree/main/docs
 
 ## Features
 
