@@ -1,8 +1,8 @@
-# { name } resume
+# Kohei Ogura resume
 
 ## Sample
 
-https://github.com/kawamataryo/resume
+https://github.com/gurico0516/resume
 
 ## Features
 
