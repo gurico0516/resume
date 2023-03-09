@@ -29,13 +29,13 @@
 JavaScript | TypeScript | PHP | Ruby | Python
 
 ### フレームワーク等
-Laravel | Ruby on rails | React | Vue | jQuery | Tailwind | Bootstrap | Selenium
+Laravel | Rails | React | Vue | jQuery | Tailwind | Bootstrap | Selenium
 
 ### RDB
 MySQL | PostgreSQL
 
 ### Cloud/AWS
-S3 | EC2 | ELB | Fargate | IAM | RDS(MySQL|PostgreSQL) | Aurora | CloudWatch | Step Functions | Amazon EventBridge | CodePipeline | CodeDeploy
+VPC | S3 | CloudFront | EC2 | ELB | ECS | Fargate | Route53 | Kinesis | Kinesis Firehose | SNS | SES | IAM | RDS(MySQL|PostgreSQL) | Aurora | CloudWatch | Step Functions | CloudTrail | EventBridge | KMS | CodePipeline | CodeDeploy
 
 ### SaaS/PaaS
 GitHub | GitLab | Github Actions
