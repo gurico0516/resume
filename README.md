@@ -34,7 +34,7 @@ Laravel | Rails | React | Vue | jQuery | Tailwind | Bootstrap | Selenium
 MySQL | PostgreSQL
 
 ### Cloud/AWS
-VPC | S3 | CloudFront | EC2 | ELB | ECS | Fargate | Route53 | Kinesis | Kinesis Firehose | SNS | SES | IAM | RDS(MySQL|PostgreSQL) | Aurora | CloudFormation | CloudWatch | Step Functions | CloudTrail | EventBridge | KMS | CodePipeline | CodeDeploy
+VPC | S3 | CloudFront | EC2 | ELB | ECS | Fargate | Route53 | Kinesis | Kinesis Firehose | SNS | SES | IAM | RDS(MySQL|PostgreSQL) | Aurora | CloudFormation | CloudWatch | Step Functions | CloudTrail | EventBridge | KMS | CodePipeline | CodeDeploy | CodeWhisperer
 
 ### SaaS/PaaS
 GitHub | GitLab | Github Actions
