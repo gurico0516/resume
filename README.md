@@ -7,8 +7,7 @@
 |名前|小椋 幸平|
 |所在地|大阪府 大阪市|
 |生年月日|1996年6月26日|
-|Twitter|[@gurico0516](https://twitter.com/gurico0516)|
-|Linkein|[kohei-ogura](https://www.linkedin.com/in/kohei-ogura/)|
+|GitHub|[gurico0516](https://github.com/gurico0516)|
 |ポートフォリオサイト|[GuriLab](https://gurilab.com/)|
 |英語力|TOEIC700点|
 
