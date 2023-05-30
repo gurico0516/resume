@@ -8,7 +8,8 @@
 |所在地|大阪府 大阪市|
 |生年月日|1996年6月26日|
 |GitHub|[gurico0516](https://github.com/gurico0516)|
-|ポートフォリオサイト|[GuriLab](https://gurilab.com/)|
+|Instagram|[Kohei](Instagram.com/koheeei26)|
+|MySite|[GuriLab](https://gurilab.com/)|
 |英語力|TOEIC700点|
 
 ---
