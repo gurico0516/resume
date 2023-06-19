@@ -27,17 +27,17 @@ JavaScript | TypeScript | PHP | Ruby
 ### フレームワーク等
 Laravel | Rails | React | Vue | jQuery | Tailwind | Bootstrap
 
-### RDB
-MySQL | PostgreSQL
+### RDB/NoSQL
+MySQL | PostgreSQL | Oracle | Realtime Database
 
-### Cloud/AWS
+### AWS
 VPC | S3 | CloudFront | EC2 | ELB | ECS | Fargate | Route53 | Kinesis | Kinesis Firehose | SNS | SES | IAM | RDS(MySQL|PostgreSQL) | Aurora | CloudFormation | CloudWatch | Step Functions | CloudTrail | EventBridge | KMS | CodePipeline | CodeDeploy | CodeWhisperer
 
 ### SaaS/PaaS
-GitHub | GitLab | Github Actions
+GitHub | GitLab | GitHub Actions
 
 ### その他
-Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack | Gulp | Kibana | OpenAPI | Netlify | Notion | Backlog | Redmine | Canva | Adobe Photoshop | Adobe Illustrator | WordPress | MovableType
+Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack | Gulp | Kibana | OpenAPI | Netlify | Notion | Backlog | Redmine | Canva | Adobe Photoshop | Adobe Illustrator
 
 ---
 
@@ -54,9 +54,10 @@ Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack |
 - チームメンバーのコートレビュー。
 - ユーザーからの問い合わせ時には、Cloudwatchのログベースでのソースコード修正、DBデータ修正を行う。
 - イベント抽選時や先行申し込み時に特定の日時、時刻にアプリへのアクセスが急増することに備えて、アプリのECSサーバー台数を増加させるAuto Scaling対応、ELB内のリクエスト数を監視しアプリの可用性を保つ作業。
-- 本番環境、検証環境、開発環境それぞれに対して、既に整備されたデプロイスクリプトに基づいてCodepipelineによるデプロイ作業。
+- 本番環境、検証環境、開発環境それぞれに対して、CodePipelineによるデプロイ作業。
+- EventBridgeとStep Functionsでの通知バッチ設定作業。
 - チケットアプリと紐付く管理者用CMSのLaravel, Vueでの保守作業。CSVダウンロード時のデータ処理の修正、CMSでのイベント作成時のリロード処理の修正。
-- チケットアプリに紐づくイベント詳細サイトの改修を担当。イベント詳細サイトのイベント選択時にios、android、pcの判別を行い、pc以外の場合はそれぞれのOSに基づいたストアまたはインストール済みアプリに遷移する処理をTypeScript, Vueで作成。また、イベントデータをDBよりLaravelで取得し、TypeScript、Vueとの連携、イベントの手数料や支払い方法を表示するために、外部APIをコールする必要があり、その仕組みをLaravelで作成し、Typecript、Vueとの連携を実施。
+- チケットアプリに紐づくイベント詳細サイトの改修を担当。イベント詳細サイトのイベント選択時にios、android、pcの判別を行い、pc以外の場合はそれぞれのOSに基づいたストアまたはインストール済みアプリに遷移する処理をTypeScript, Vueで作成。また、イベントデータをDBよりLaravelで取得し、TypeScript、Vueとの連携、イベントの手数料や支払い方法を表示するために、外部APIをコールする必要があり、その仕組みをLaravelで作成し、TypeScript、Vueとの連携を実施。
 - 要件定義フェーズにて懸念事項や顧客要望の仕様実現可否の技術検証及び調査、フロントエンドとバックエンドの連携に関するチームメンバーとの認識合わせ、及び各機能の工数見積。
 
 【発揮したバリュー】
