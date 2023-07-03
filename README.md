@@ -43,7 +43,7 @@ Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack |
 
 ## 主な業務経歴
 
-### 大手レコード会社向けチケットアプリのAPI開発/CMS保守/サイト改修【TypeScript, Vue, React, Laravel, AWS】(2022年〜2023年)
+### 大手レコード会社向けチケットアプリのAPI開発/CMS保守/サイト改修【TypeScript, Vue.js, React.js, Next.js, Laravel, AWS】(2022年〜2023年)
 
 【プロジェクト概要】
 アーティストやアニメのイベント系チケットアプリのAPIリプレイス開発、チケットアプリ管理用のCMS保守、イベント詳細サイトの改修。
@@ -82,7 +82,7 @@ Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack |
 【発揮したバリュー】
 マネジメント業務は初めてであったが、チームメンバーとの信頼関係を構築することに焦点を置き、相談しやすく依頼しやすい関係を築くことができ、プロジェクトを円滑に進めることができた。
 
-### 建築設計事務所向けWebアプリの開発【TypeScript, Vue, Laravel】(2023年)
+### 建築設計事務所向けWebアプリの開発【TypeScript, Vue.js, Laravel】(2023年)
 
 【プロジェクト概要】
 建築士と現場の職人のコミュニケーションの円滑化を図るためのチャット機能、設計書共有、書類等の電子化を含んだWebアプリの新規開発。
