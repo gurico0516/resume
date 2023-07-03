@@ -25,7 +25,7 @@ Web系システムのバックエンド開発を専門としており、特にPH
 JavaScript | TypeScript | PHP | Ruby
 
 ### フレームワーク等
-Laravel | Rails | React | Vue | jQuery | Tailwind | Bootstrap
+Laravel | Ruby on Rails | Vue.js | React.js | Next.js | jQuery | Tailwind | Bootstrap
 
 ### RDB/NoSQL
 MySQL | PostgreSQL | Oracle | Realtime Database
