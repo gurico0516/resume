@@ -7,9 +7,10 @@
 |名前|小椋 幸平|
 |所在地|大阪府 大阪市|
 |生年月日|1996年6月26日|
-|GitHub|[gurico0516](https://github.com/gurico0516)|
-|Instagram|[Kohei](Instagram.com/koheeei26)|
-|MySite|[GuriLab](https://gurilab.com/)|
+|Twitter|[@gurico0516](https://twitter.com/gurico0516/)|
+|Instagram|[@koheeei26](Instagram.com/koheeei26)|
+|ポートフォリオ|[chomane](https://github.com/gurico0516/chomane/)|
+|サイト|[GuriLab](https://gurilab.com/)|
 |英語力|TOEIC700点|
 
 ---
@@ -60,6 +61,7 @@ Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack |
 - チケットアプリに紐づくイベント詳細サイトの改修を担当。イベント詳細サイトのイベント選択時にios、android、pcの判別を行い、pc以外の場合はそれぞれのOSに基づいたストアまたはインストール済みアプリに遷移する処理をTypeScript, Vueで作成。また、イベントデータをDBよりLaravelで取得し、TypeScript、Vueとの連携、イベントの手数料や支払い方法を表示するために、外部APIをコールする必要があり、その仕組みをLaravelで作成し、TypeScript、Vueとの連携作業。
 - 要件定義フェーズにて懸念事項や顧客要望の仕様実現可否の技術検証及び調査、フロントエンドとバックエンドの連携に関するチームメンバーとの認識合わせ、及び各機能の工数見積。
 - React17から18へのバージョンアップ対応。
+- チームメンバーの技術フォロー対応。
 
 【発揮したバリュー】
 要件定義から案件に参画し、設計、開発、納品、保守まで一貫して担当。Laravelでの型定義を必須としたコーディングや各APIにおけるユニットテスト、結合テストのテストコードを作成し、テストカバレッジをリプレイス開発期間内に90％以上達成し大きな不具合等なくAPIリプレイスが完了、管理者用CMSの保守作業、イベント詳細サイトの改修では、TypeScript、Vueの組み合わせは初めてであったが、Composition APIの初期フェーズでキャッチアップを行いプロジェクトに貢献。
@@ -71,9 +73,9 @@ Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack |
 
 【担当業務】別プロジェクトと並行して、主にマネジメント業務を担当。具体的には下記。
 - チームメンバーのコードレビュー。
-- チームメンバーの技術サポート。
+- チームメンバーの技術フォロー対応。
 - タスクの洗い出しを行いチケットを立てて、メンバーのタスクアサイン。
-- Oracle Cloud上での本番デプロイ作業の立ち合い。
+- Oracle CloudへのJenkinsでのデプロイ作業。
 - 顧客の窓口対応。
 - PHP7.3からPHP8.2へのバージョンアップデート対応。
 - Laravel6からLaravel10へのバージョンアップデート対応。
