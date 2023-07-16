@@ -8,7 +8,7 @@
 |所在地|大阪府 大阪市|
 |生年月日|1996年6月26日|
 |Twitter|[@gurico0516](https://twitter.com/gurico0516/)|
-|Instagram|[@koheeei26](Instagram.com/koheeei26)|
+|Instagram|[@koheeei26](https://www.instagram.com/koheeei26/)|
 |ポートフォリオ|[chomane](https://github.com/gurico0516/chomane/)|
 |サイト|[GuriLab](https://gurilab.com/)|
 |英語力|TOEIC700点|
