@@ -61,7 +61,7 @@ Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack |
 アーティストやアニメのイベント系チケットアプリのAPIリプレイス開発、チケットアプリ管理用のCMS保守、イベント詳細サイトの改修を担当。
 
 [担当業務1] チケットアプリAPIリプレイス開発から保守を担当。具体的には下記。
-- APIのOpenAPIでのRest API定義による設計及び開発
+- APIのOpenAPIでのRest API定義による設計及び開発。
 - チームメンバーのコートレビュー作業。
 - チームメンバーの技術フォロー対応。
 - Cloudwatchのログベースでのソースコード修正、DBデータ修正作業。
