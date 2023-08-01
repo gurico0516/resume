@@ -64,7 +64,7 @@ Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack |
 - APIのOpenAPIでのRest API定義による設計及び開発。
 - チームメンバーのコードレビュー作業。
 - チームメンバーの技術フォロー対応。
-- Cloudwatchのログベースでのソースコード修正、DBデータ修正作業。
+- CloudWatchのログベースでのソースコード修正、DBデータ修正作業。
 - イベント抽選時や先行申し込み時に特定の日時、時刻にアプリへのアクセスが急増することに備えて、アプリのECSサーバー台数を増加させるAuto Scaling対応、ELB内のリクエスト数を監視しアプリの可用性を保つ作業。
 - 本番環境、検証環境、開発環境それぞれに対して、CodePipelineによるデプロイ作業。
 - EventBridgeとStep Functionsでの通知バッチ設定作業。
@@ -79,7 +79,7 @@ Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack |
 - React17から18へのバージョンアップ対応。
 
 【発揮したバリュー】
-設計〜リリースまで一貫して業務を担当。Laravelでの型定義を必須としたコーディングや各APIにおけるユニットテスト、結合テストのテストコードを作成し、テストカバレッジをリプレイス開発期間内に90％以上達成。主要サービスの外部APIの完全リプレイスという大きなプレッシャーを伴う作業も大きな不具合等なく完了。TypeScriptとVue.jsでの開発は初めてであり、特にTypeScript + Composition API + Vue.jsの組み合わせは情報も少なく大変だったが、個人学習でもキャッチアップを行い習得。
+設計〜リリースまで一貫して業務を担当。Laravelでの型定義を必須としたコーディングや各APIにおけるユニットテスト、結合テストのテストコードを作成し、テストカバレッジをリプレイス開発期間内に90％以上達成。主要サービスの外部APIの完全リプレイスという大きなプレッシャーを伴う作業も大きな不具合等なく完了。TypeScriptとVue.jsでの開発は初めてであり、特にTypeScript + Composition API + Vue.jsの組み合わせは情報も少なく大変だったが、個人学習でもキャッチアップを行い習得し、プロジェクトに貢献。
 
 ### 大手自動車メーカー向けWebアプリの開発【Laravel, Jenkins, Oracle】(2023年)
 
