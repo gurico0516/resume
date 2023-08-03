@@ -39,7 +39,7 @@ VPC | S3 | CloudFront | EC2 | ELB | ECS | Fargate | Route53 | Kinesis | Kinesis 
 GitHub | GitLab | GitHub Actions
 
 ### その他
-Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack | Gulp | Kibana | OpenAPI | Netlify | Notion | Backlog | Redmine | Canva | Adobe Photoshop | Adobe Illustrator
+MinIO | Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack | Gulp | Kibana | OpenAPI | Netlify | Notion | Backlog | Redmine | Canva | Adobe Photoshop | Adobe Illustrator
 
 ## バリューを発揮しやすい業務
 - アプリケーションアーキテクチャ設計
@@ -110,11 +110,10 @@ Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack |
 - API設計書のレビュー作業。
 - Docker環境にFirebaseEmulatorの導入。
 - Notificationを利用したメール送信機能とSMS通知機能の実装。
-- 複数テーブルのリレーションでのAPI開発。
 - 単一アクションの実行のみ行うシングルアクションコントローラーでの実装。
-- Abstruct Classを利用したController-Service-Repositoryパターンでの実装。
-- ServiceクラスとRepositoryクラスでのビジネスロジックとデータアクセスの切り分け。
 - declare(strict_types=1)を含み静的解析ツールを利用した厳格な型チェックを含めた実装。
+- 複数テーブルのリレーションでのAPI開発。
+- Tenancyを利用したマルチテナント環境下での開発。
 - psr-12に準じたフォーマットでのコーディング。（Laravel Pint使用）
 
 【発揮したバリュー】
