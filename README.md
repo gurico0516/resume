@@ -24,10 +24,10 @@
 - 基本的に実務で関わった技術のみ記載しています。
 
 ### 言語
-JavaScript | TypeScript | PHP | Ruby
+JavaScript | TypeScript | PHP | Ruby | Python
 
 ### フレームワーク等
-Laravel | Ruby on Rails | Vue.js | React.js | jQuery | Tailwind | Bootstrap
+Laravel | Ruby on Rails | Vue.js | React.js | jQuery | Tailwind | Bootstrap | Beautiful Soup
 
 ### RDB/NoSQL
 MySQL | PostgreSQL | Oracle | Realtime Database
@@ -39,7 +39,7 @@ VPC | S3 | CloudFront | EC2 | ELB | ECS | Fargate | Route53 | Kinesis | Kinesis 
 GitHub | GitLab | GitHub Actions
 
 ### その他
-MinIO | Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack | Gulp | Kibana | OpenAPI | Netlify | Notion | Backlog | Redmine | Canva | Adobe Photoshop | Adobe Illustrator
+Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack | Gulp | Kibana | OpenAPI | Netlify | Notion | Backlog | Redmine | Figma | Miro | Adobe Photoshop | Adobe Illustrator
 
 ## バリューを発揮しやすい業務
 - アプリケーションアーキテクチャ設計
