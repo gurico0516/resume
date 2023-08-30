@@ -24,10 +24,10 @@
 - 基本的に実務で関わった技術のみ記載しています。
 
 ### 言語
-JavaScript | TypeScript | PHP | Ruby | Python
+JavaScript | TypeScript | PHP | Ruby
 
 ### フレームワーク等
-Laravel | Ruby on Rails | Vue.js | React.js | jQuery | Tailwind | Bootstrap | Beautiful Soup
+Laravel | Ruby on Rails | Vue.js | React.js | jQuery | Tailwind | Bootstrap
 
 ### RDB/NoSQL
 MySQL | PostgreSQL | Oracle | Realtime Database
@@ -93,6 +93,7 @@ Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack |
 - タスクの洗い出しを行い、メンバーのタスクアサイン作業。
 - Oracle CloudへのJenkinsでのデプロイ作業。
 - 顧客の窓口対応。
+- 画面設計書の作成、レビュー作業
 - PHP7.3からPHP8.2へのバージョンアップデート対応。
 - Laravel6からLaravel10へのバージョンアップデート対応。
 - PHP, Laravelバージョンアップに伴うライブラリ等のアップデート対応。
@@ -100,6 +101,21 @@ Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack |
 
 【発揮したバリュー】
 マネジメント業務は初めてであったが、チームメンバーとの信頼関係を構築することに焦点を置き、相談しやすく依頼しやすい関係を築くことができ、プロジェクトを円滑に進めることができた。
+
+### 地方特化型総合HRサービスの開発【TypeScript, React.js, Laravel】(2023年)
+
+【プロジェクト概要】
+地方企業プロジェクトと都市部経営人材を繋ぐ地方特化型総合HRサービスの新規開発。
+
+【担当業務】WebアプリのAPIサーバーの新規開発を担当。具体的には下記。
+- API設計書作成、レビュー作業。
+- declare(strict_types=1)を含み静的解析ツールを利用した厳格な型チェックを含めた実装。
+- AWS S3を利用した画像ファイルアップロード機能の実装。
+- 複数テーブルのリレーションでのAPI開発。
+- psr-12に準じたフォーマットでのコーディング。（Laravel Pint使用）
+
+【発揮したバリュー】
+参画時から1ヶ月後に第1リリースが行われるプロジェクトであったため、納期や不具合等が発生してはいけないというプレッシャーを感じながらのAPI開発であったが、複雑な要件を含む設計ではチームメンバー内で入念な確認を行い、実装がスムーズに進められるかつ不具合や仕様の認識相違がないよう努めることで大きな不具合等なく実装を進めることができた。
 
 ### 建築設計事務所向けWebアプリの開発【TypeScript, Vue.js, Laravel】(2023年)
 
