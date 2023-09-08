@@ -29,8 +29,8 @@ JavaScript | TypeScript | PHP | Ruby
 ### フレームワーク等
 Laravel | Ruby on Rails | Vue.js | React.js | jQuery | Tailwind | Bootstrap
 
-### RDB/NoSQL
-MySQL | PostgreSQL | Oracle | Realtime Database
+### RDB
+MySQL | PostgreSQL | Oracle
 
 ### AWS
 VPC | S3 | CloudFront | EC2 | ELB | ECS | Fargate | Route53 | Kinesis | Kinesis Firehose | SNS | SES | IAM | RDS(MySQL|PostgreSQL) | Aurora | CloudFormation | CloudWatch | Step Functions | CloudTrail | EventBridge | KMS | CodePipeline | CodeBuild | CodeDeploy | CodeWhisperer | Systems Manager | Amazon Corretto
@@ -39,7 +39,7 @@ VPC | S3 | CloudFront | EC2 | ELB | ECS | Fargate | Route53 | Kinesis | Kinesis 
 GitHub | GitLab | GitHub Actions
 
 ### その他
-Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack | Gulp | Kibana | OpenAPI | Netlify | Notion | Backlog | Redmine | Figma | Miro | Adobe Photoshop | Adobe Illustrator
+GitBook | Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack | Gulp | Kibana | OpenAPI | Netlify | Notion | Backlog | Redmine | Figma | Miro | Adobe Photoshop | Adobe Illustrator
 
 ## バリューを発揮しやすい業務
 - アプリケーションアーキテクチャ設計
@@ -147,6 +147,7 @@ SaaSプロダクトの設計フェーズから製造、テストまで一貫し�
 製品担当者と仕様を擦り合わせながら基本設計から詳細設計まで担当し、実装まで行う。その後のテストフェーズでは、ホワイトボックス/ブラックボックス両方の観点から実施。新機能実装時に介護現場で機能がどのように使われているのかイメージができなかったため、実際に介護事業所に現場見学にいき、事業所の代表からICT導入後のメリットやデメリットをヒアリングを行い、意見を参考にプロダクトに反映。
 
 ### 勤怠管理システムの開発【Bootstrap, JavaScript, Laravel】(2020年)
+
 【プロジェクト概要】
 勤怠管理システムの新規開発。
 
