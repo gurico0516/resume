@@ -55,7 +55,7 @@ GitBook | Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite |
 
 ## 本業の業務経歴
 
-### 大手レコード会社のチケットアプリのAPI開発/CMS保守/サイト改修【TypeScript, Vue.js, React.js, Laravel, AWS】(2022年〜2023年)
+### 大手レコード会社のチケットアプリのAPI開発/CMS保守/イベントサイトの改修/クローズドサイトの開発【TypeScript, Vue.js, React.js, Laravel, AWS】(2022年〜2023年)
 
 【プロジェクト概要】
 アーティストやアニメのイベント系チケットアプリのAPI開発/保守、チケットアプリ管理用のCMS保守、イベントサイトの改修、ファンクラブ限定のクローズドサイトの開発を担当。
