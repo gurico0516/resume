@@ -10,7 +10,6 @@
 |Instagram|[@koheeei26](https://www.instagram.com/koheeei26/)|
 |ポートフォリオ|[chomane](https://github.com/gurico0516/chomane/)|
 |サイト|[GuriLab](https://gurilab.com/)|
-|英語力|TOEIC700点|
 
 
 ## 概要
