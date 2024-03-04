@@ -10,6 +10,7 @@
 |Instagram|[@koheeei26](https://www.instagram.com/koheeei26/)|
 |ポートフォリオ|[chomane](https://github.com/gurico0516/chomane/)|
 |サイト|[GuriLab](https://gurilab.com/)|
+|英語力|TOEIC705点
 
 
 ## 概要
@@ -26,7 +27,7 @@
 JavaScript | TypeScript | PHP | Ruby
 
 ### フレームワーク等
-Laravel | Ruby on Rails | Vue.js | React.js | jQuery | Tailwind | Bootstrap
+Laravel | Ruby on Rails | Vue | React | Astro | jQuery | Tailwind | Bootstrap
 
 ### RDB
 MySQL | PostgreSQL | Oracle
