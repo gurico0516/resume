@@ -27,7 +27,7 @@
 JavaScript | TypeScript | PHP | Ruby
 
 ### フレームワーク等
-Laravel | Ruby on Rails | Vue | React | Astro | jQuery | Tailwind | Bootstrap
+Laravel | Ruby on Rails | Vue | React | Astro | jQuery | Bootstrap
 
 ### RDB
 MySQL | PostgreSQL | Oracle
@@ -39,7 +39,7 @@ VPC | S3 | CloudFront | EC2 | ELB | ECS | Fargate | Route53 | Kinesis | Kinesis 
 GitHub | GitLab | GitHub Actions
 
 ### その他
-GitBook | Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack | Gulp | Kibana | OpenAPI | Netlify | Notion | Backlog | Redmine | Figma | Miro | Adobe Photoshop | Adobe Illustrator
+GitBook | Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack | Kibana | OpenAPI | Netlify | Notion | Backlog | Redmine | Figma | Miro | Adobe Photoshop | Adobe Illustrator
 
 ## バリューを発揮しやすい業務
 - アプリケーションアーキテクチャ設計
@@ -55,7 +55,23 @@ GitBook | Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite |
 
 ## 本業の業務経歴
 
-### 大手レコード会社のチケットアプリのAPI開発/CMS保守/イベントサイトの改修/クローズドサイトの開発【TypeScript, Vue.js, React.js, Laravel, AWS】(2022年〜2023年)
+### 自社サイトの開発【TypeScript, React, Astro, SCSS】(2024年)
+
+【プロジェクト概要】
+自社サイトリニューアルに伴う新規ページの開発。
+
+【担当業務】主に自社サイトのフロントエンド部分を担当。具体的には下記。
+- Astroフレームワークを用いた、静的サイトの構築。
+- WordPress REST APIを使用して、バックエンドから提供されるコンテンツをフロントエンドに動的に表示する実装。
+- react swiperライブラリを用いて、ユーザーが簡単にコンテンツを閲覧できるスライダー機能実装。
+- Fisher-Yates shuffleアルゴリズムを使用し、ページリロード毎にロゴ画像がランダムにシャッフル表示される機能実装。
+- SCSSを利用した、コードの再利用とメンテナンス性の向上。
+- TypeScriptを活用した、バグの事前排除と可読性を考慮した実装。
+
+【発揮したバリュー】
+Astroでの開発は初めてであったが、公式ドキュメントを読み込みキャッチアップを行ったことでAstroへのReact導入やWordPress REST APIの連携もスムーズに行うことができ、短い期間のプロジェクトの中で遅延等発生させず貢献することができた。
+
+### 大手レコード会社のチケットアプリのAPI開発/CMS保守/イベントサイトの改修/クローズドサイトの開発【TypeScript, Vue, React, Laravel, AWS】(2022年〜2024年)
 
 【プロジェクト概要】
 アーティストやアニメのイベント系チケットアプリのAPI開発/保守、チケットアプリ管理用のCMS保守、イベントサイトの改修、ファンクラブ限定のクローズドサイトの開発を担当。
@@ -96,7 +112,7 @@ GitBook | Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite |
 【発揮したバリュー】
 設計〜リリースまで一貫して業務を担当。Laravelでの型定義を必須としたコーディングや各APIにおけるユニットテスト、結合テストのテストコードを作成し、テストカバレッジをリプレイス開発期間内に90％以上達成。主要サービスの外部APIの完全リプレイスという大きなプレッシャーを伴う作業も大きな不具合等なく完了。TypeScriptとVue.jsでの開発は初めてであり、特にTypeScript + Composition API + Vue.jsの組み合わせは情報も少なく大変だったが、個人学習でもキャッチアップを行い習得し、プロジェクトに貢献。
 
-### 大手自動車会社のWebアプリの開発【Laravel, Jenkins, Oracle】(2023年)
+### 大手自動車会社のWebアプリの開発【Laravel, JavaScript, Jenkins, Oracle】(2023年)
 
 【プロジェクト概要】
 自動車オーナー向けの整備記録を行うアプリの保守開発。
@@ -141,7 +157,7 @@ Laravelを使っての初めての新規開発のプロジェクトであった�
 
 ## 副業の業務経歴
 
-### 生成AIを利用したAIヘルスケアアプリの開発【TypeScript, React.js, Laravel】(2023年)
+### 生成AIを利用したAIヘルスケアアプリの開発【Laravel】(2023年)
 
 【プロジェクト概要】
 生成AIを利用したAIヘルスケアアプリの保守開発。
@@ -156,7 +172,7 @@ Laravelを使っての初めての新規開発のプロジェクトであった�
 【発揮したバリュー】
 設計から実装まで一貫してAPI開発を担当。初めての生成AIを利用したアプリ開発経験であったが、ユーザーの健康記録情報と要件で定められたプロンプトを組み合わてレスポンスを返却するAPI開発など複数のAPI開発を担当し、ヘルスケアアプリのプロジェクトに貢献した。
 
-### 地方特化型総合HRサービスの開発【TypeScript, React.js, Laravel】(2023年)
+### 地方特化型総合HRサービスの開発【Laravel】(2023年)
 
 【プロジェクト概要】
 地方企業プロジェクトと都市部経営人材を繋ぐ地方特化型総合HRサービスの新規開発。
@@ -171,7 +187,7 @@ Laravelを使っての初めての新規開発のプロジェクトであった�
 【発揮したバリュー】
 参画時から1ヶ月後に第1リリースが行われるプロジェクトであったため、納期や不具合等が発生してはいけないというプレッシャーを感じながらのAPI開発であったが、複雑な要件を含む設計ではチームメンバー内で入念な確認を行い、実装がスムーズに進められるかつ不具合や仕様の認識相違がないよう努めることで大きな不具合等なく実装を進めることができた。
 
-### 建築設計事務所向けWebアプリの開発【TypeScript, Vue.js, Laravel】(2023年)
+### 建築設計事務所向けWebアプリの開発【Laravel】(2023年)
 
 【プロジェクト概要】
 建築士と現場の職人のコミュニケーションの円滑化を図るためのチャット機能、設計書共有、書類等の電子化を含んだWebアプリの新規開発。
@@ -189,7 +205,7 @@ Laravelを使っての初めての新規開発のプロジェクトであった�
 【発揮したバリュー】
 ローカル環境にFirebase Emulator UIを導入するDockerfile作成。また、API開発のスピードをあげるために関連ファイル（コントローラー、リクエスト、リソース、ユニットテスト）それぞれのファイルを1コマンドで作成できるよう簡潔化。その結果、限られた稼働時間でありながら12本以上のAPI開発に携わりプロジェクトに貢献。またテストカバレッジは90％以上を達成。
 
-### 大手プログラミングスクールの講師【JavaScript, Rails, AWS】(2022年)
+### 大手プログラミングスクールの講師【JavaScript, Ruby on Rails, AWS】(2022年)
 
 【プロジェクト概要】
 エンジニア転職を目指す方向けプログラミングスクールの講師業務。
