@@ -4,7 +4,7 @@
 |key|value|
 |---|---|
 |名前|小椋 幸平|
-|所在地|大阪府 大阪市|
+|所在地|大阪府 八尾市|
 |生年月日|1996年6月26日|
 |Twitter|[@gurico0516](https://twitter.com/gurico0516/)|
 |Instagram|[@koheeei26](https://www.instagram.com/koheeei26/)|
@@ -14,46 +14,53 @@
 
 
 ## 概要
-- web系システムの開発をしています。
-- これまで主にLaravelでのバックエンド開発、TypeScript + Vue.jsでのフロントエンド開発やAWSのシステム運用に携わってきました。
-- 新規開発フェーズ、リプレイスフェーズ、改修フェーズ、保守運用フェーズの各フェーズ経験があるため、どのフェーズでもお役に立つことが可能です。
-- 「手を動かすエンジニア」として幅広く対応可能です。お仕事に関するお問い合わせは [GuriLab](https://gurilab.com/) のページよりお気軽にお願いします。
-
+バックエンド開発を中心に、Web開発全般の経験があるWebエンジニアです。主にLaravelとFastAPIを使用してAPIおよびSaaS開発を手掛けてきました。プロジェクトの要件定義、設計、実装、ユニットテスト、技術選定の幅広い経験があります。またTypeScript、Vue.js、Reactを用いたフロントエンドの保守開発やAWSの運用も行いました。チケットアプリのプロジェクトでは、Webチームのリーダーを担当し、自動車会社のプロジェクトでは、サブPMとしてメンバーのタスク管理や顧客窓口対応も担当しました。
 
 ## スキル
 - 基本的に実務で関わった技術のみ記載しています。
 
 ### 言語
-JavaScript | TypeScript | PHP | Ruby
+PHP | Python | TypeScript | JavaScript
 
-### フレームワーク等
-Laravel | Ruby on Rails | Vue | React | Astro | jQuery | Bootstrap
+### フレームワーク/ライブラリ
+Laravel | FastAPI | Scrapy | Vue | React | Astro | jQuery | Bootstrap
 
-### RDB
-MySQL | PostgreSQL | Oracle
-
-### AWS
-VPC | S3 | CloudFront | EC2 | ELB | ECS | Fargate | Route53 | Kinesis | Kinesis Firehose | SNS | SES | IAM | RDS(MySQL|PostgreSQL) | Aurora | CloudFormation | CloudWatch | Step Functions | CloudTrail | EventBridge | KMS | CodePipeline | CodeBuild | CodeDeploy | CodeWhisperer | Systems Manager | Amazon Corretto
+### RDB/NoSQL
+MySQL | PostgreSQL | Oracle | MongoDB
 
 ### SaaS/PaaS
-GitHub | GitLab | GitHub Actions
+GitHub | GitLab | Cloud Source Repositories
 
 ### その他
-GitBook | Ansible | PHPUnit | Linux | Apache | nginx | Docker | Vagrant | Vite | Webpack | Kibana | OpenAPI | Netlify | Notion | Backlog | Redmine | Figma | Miro | Adobe Photoshop | Adobe Illustrator
-
-## バリューを発揮しやすい業務
-- アプリケーションアーキテクチャ設計
-- アプリケーション開発
-- API開発
-- 基盤コード開発
-- パッケージマネージャの導入
-- PHPStanやLaravel Pintの導入
-- 単体テストや結合テストの導入
-- Gitブランチモデルの適切な定義
-- 認証サービスの導入
-- ログベースでの不具合調査
+KeyCloak | MinIO | GitBook | PHPUnit | Linux | Apache | nginx | Podman | Docker | Vagrant | Vite | Webpack | Kibana | OpenAPI | Notion | SourceTree | Jira | Confluence | Backlog | Redmine | Figma | Miro | Adobe Photoshop | Adobe Illustrator
 
 ## 本業の業務経歴
+
+### LLMベースのデータ統合・解析プラットフォームの開発【FastAPI, Scrapy, MongoDB, KeyCloak, MinIO】(2024年)
+
+【プロジェクト概要】
+LLMベースのデータ統合・解析プラットフォームのPoC開発。
+
+【担当業務1】APIサーバーの開発担当。具体的には下記。
+- 技術スタック（FastAPI, MongoDB, MySQL, Keycloak, MinIO）選定とコンテナ環境整備。
+- APIサーバーの全体設計とリモートコンテナ環境（DevContainer）の整備。
+- LangChainサーバーとフロントエンドの連携機能を含むAPIサーバーの開発。
+- ドキュメントのアップロード、LLMによる回答生成、対話型チャットの機能実装（入力、新規作成、履歴表示、削除、名称変更）。
+- チャット履歴とフォルダ内の検索機能を実装。
+- Keycloakを利用したOAuth2.0の認証サービス導入。
+
+【担当業務2】クローラーバッチの開発担当。具体的には下記。
+- 技術スタック（Scrapy, MinIO）選定とコンテナ環境整備。
+- ログレベル、ログメッセージの定義。
+- クローリングによるWebサイトからのテキストデータ抽出とオブジェクトストレージへの格納。
+- scrapydとcronを使用したバッチ定期実行の設定。
+
+【担当業務3】ベクトル化バッチの開発担当。具体的には下記。
+- 技術スタック（FastAPI, MongoDB, MinIO）選定とコンテナ環境整備。
+- ログレベル、ログメッセージの選定。
+- MongoDBからドキュメントデータの取得と、オブジェクトストレージに保存されたテキストファイルのベクトル化。
+- バッチサーバーを介してLangChainサーバーにテキストファイルを送信し、ベクトル化を行うプロセスの実装。
+- APSchedulerを利用したバッチプロセスの定期実行の設定。
 
 ### 自社サイトの開発【TypeScript, React, Astro, SCSS】(2024年)
 
