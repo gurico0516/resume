@@ -31,12 +31,15 @@ MySQL | PostgreSQL | Oracle | MongoDB
 ### SaaS/PaaS
 GitHub | GitLab | Cloud Source Repositories
 
+### Cloud
+AWS | Google Cloud | Oracle Cloud
+
 ### その他
-KeyCloak | MinIO | GitBook | PHPUnit | Linux | Apache | nginx | Podman | Docker | Vagrant | Vite | Webpack | Kibana | OpenAPI | Notion | SourceTree | Jira | Confluence | Backlog | Redmine | Figma | Miro | Adobe Photoshop | Adobe Illustrator
+Mermaid | KeyCloak | MinIO | GitBook | PHPUnit | Linux | Apache | nginx | Podman | Docker | Vagrant | Vite | Webpack | Kibana | OpenAPI | Notion | SourceTree | Jira | Confluence | Backlog | Redmine | Figma | Miro | Adobe Photoshop | Adobe Illustrator
 
 ## 本業の業務経歴
 
-### LLMベースのデータ統合・解析プラットフォームの開発【FastAPI, Scrapy, MongoDB, KeyCloak, MinIO】(2024年)
+### LLMベースのデータ統合・解析プラットフォームの開発【FastAPI, Scrapy, MongoDB, KeyCloak, MinIO, Google Cloud】(2024年)
 
 【プロジェクト概要】
 LLMベースのデータ統合・解析プラットフォームのPoC開発。
@@ -48,6 +51,7 @@ LLMベースのデータ統合・解析プラットフォームのPoC開発。
 - ドキュメントのアップロード、LLMによる回答生成、対話型チャットの機能実装（入力、新規作成、履歴表示、削除、名称変更）。
 - チャット履歴とフォルダ内の検索機能を実装。
 - Keycloakを利用したOAuth2.0の認証サービス導入。
+- Mermaidを利用したER図作成。
 
 【担当業務2】クローラーバッチの開発担当。具体的には下記。
 - 技術スタック（Scrapy, MinIO）選定とコンテナ環境整備。
@@ -119,7 +123,7 @@ Astroでの開発は初めてであったが、公式ドキュメントを読み
 【発揮したバリュー】
 設計〜リリースまで一貫して業務を担当。Laravelでの型定義を必須としたコーディングや各APIにおけるユニットテスト、結合テストのテストコードを作成し、テストカバレッジをリプレイス開発期間内に90％以上達成。主要サービスの外部APIの完全リプレイスという大きなプレッシャーを伴う作業も大きな不具合等なく完了。TypeScriptとVue.jsでの開発は初めてであり、特にTypeScript + Composition API + Vue.jsの組み合わせは情報も少なく大変だったが、個人学習でもキャッチアップを行い習得し、プロジェクトに貢献。
 
-### 大手自動車会社のWebアプリの開発【Laravel, JavaScript, Jenkins, Oracle】(2023年)
+### 大手自動車会社のWebアプリの開発【Laravel, JavaScript, Jenkins, Oracle Cloud】(2023年)
 
 【プロジェクト概要】
 自動車オーナー向けの整備記録を行うアプリの保守開発。
