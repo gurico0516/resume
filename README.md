@@ -20,7 +20,7 @@
 PHP | Python | TypeScript | JavaScript
 
 ### フレームワーク/ライブラリ
-Laravel | FastAPI | Scrapy | Vue | React | Astro | jQuery | Bootstrap
+Laravel | FastAPI | LangChain | Scrapy | Vue | React | Astro | jQuery | Bootstrap
 
 ### RDB/NoSQL
 MySQL | PostgreSQL | Oracle | MongoDB
@@ -32,16 +32,16 @@ GitHub | GitHub Actions | GitLab | Cloud Source Repositories
 AWS | Google Cloud | Oracle Cloud
 
 ### その他
-Mermaid | KeyCloak | MinIO | GitBook | PHPUnit | Linux | Apache | nginx | Podman | Docker | Vagrant | Vite | Webpack | Kibana | OpenAPI | Notion | SourceTree | Jira | Confluence | Backlog | Redmine | Figma | Miro | Adobe Photoshop | Adobe Illustrator
+Elasticsearch | Github Copilot | Mermaid | KeyCloak | MinIO | GitBook | PHPUnit | Linux | Apache | nginx | Podman | Docker | Vagrant | Vite | Webpack | Kibana | OpenAPI | Notion | SourceTree | Jira | Confluence | Backlog | Redmine | Figma | Miro | Adobe Photoshop | Adobe Illustrator
 
 ## 本業の業務経歴
 
-### LLMベースのデータ統合・解析プラットフォームの開発【FastAPI, Scrapy, MongoDB, KeyCloak, MinIO, Google Cloud】(2024年)
+### LLMベースのチャットプラットフォームの開発【FastAPI, LangChain, Scrapy, MongoDB, KeyCloak, MinIO, Google Cloud】(2024年)
 
 【プロジェクト概要】
 LLMベースのチャットプラットフォームのPoC開発
 
-【担当業務1】APIサーバーの開発担当を担当し、以下の業務を行いました。
+【担当業務1】APIサーバーの開発を担当し、以下の業務を行いました。
 - 技術スタック（FastAPI, MongoDB, MySQL, Keycloak, MinIO）選定とコンテナ環境の整備
 - APIサーバーの全体設計とリモートコンテナ環境（DevContainer）の構築
 - LangChainサーバーとフロントエンドの連携機能を含むAPIサーバーの開発
@@ -60,19 +60,22 @@ LLMベースのチャットプラットフォームのPoC開発
 - pydanticを用いた型定義の実装
 - asyncを利用した非同期処理の実装
 
-【担当業務2】クローラーバッチの開発担当を担当し、以下の業務を行いました。
+【担当業務2】クローラーバッチの開発を担当し、以下の業務を行いました。
 - 技術スタック（Scrapy, MinIO）選定とコンテナ環境整備
 - ログ設定を実施
 - クローリングによるWebサイトからのテキストデータと添付ファイルデータ抽出結果をオブジェクトストレージへ格納するプロセスの実装
 
-【担当業務3】ベクトル化バッチの開発担当を担当し、以下の業務を行いました。
+【担当業務3】ベクトル化バッチの開発を担当し、以下の業務を行いました。
 - 技術スタック（Python, MongoDB, MinIO）選定とコンテナ環境整備
 - ログ設定を実施
 - オブジェクトストレージからテキストファイルを取得するプロセスの実装
 - バッチサーバーを介してLangChainサーバーにテキストファイルを送信し、ベクトル化を行うプロセスの実装
 
+【担当業務4】LangChainサーバーの開発を担当し、以下の業務を行いました。
+- MultiVectorRetrieverの実装を行い、論文等のロングコンテキストに対応した小さいチャンクとしてのbytestoreと大きなチャンクとしてのdocstoreとして別で管理するようにした、RAGの改善
+
 【発揮したバリュー】
-APIサーバー、バッチの設計・実装を行いました。コンテナ環境の整備により開発環境のセットアップを簡素化し、チーム全体の生産性を向上させました。また、GitHub Actionsを活用したCIパイプラインの導入、カバレッジ計測を行い、C0およびC1カバレッジで100%を達成したことにより、コードの品質を確保しました。さらに、クローラーバッチの実装により大量のデータを効率的に収集し、解析の基盤を構築しました。ベクトル化バッチの開発では、データの詳細な解析を実現し、OAuth2.0認証の導入によりセキュアなユーザー認証を提供しました。これらの取り組みにより、プロジェクトに大きく貢献しました。
+APIサーバー、バッチ、およびLangChainサーバーの設計・実装を行いました。コンテナ環境の整備により開発環境のセットアップを簡素化し、チーム全体の生産性を向上させました。また、GitHub Actionsを活用したCIパイプラインの導入、カバレッジ計測を行い、C0およびC1カバレッジで100%を達成したことにより、コードの品質を確保しました。さらに、クローラーバッチの実装により大量のデータを効率的に収集し、解析の基盤を構築しました。ベクトル化バッチの開発では、データの詳細な解析を実現し、OAuth2.0認証の導入によりセキュアなユーザー認証を提供しました。LangChainを活用したMultiVectorRetrieverの実装では、RAGを改善し、ロングコンテキストへの対応と情報検索の精度向上を実現しました。これらの取り組みにより、プロジェクトに貢献しました。
 
 ### 企業ウェブサイトの開発【TypeScript, React, Astro, SCSS】(2024年)
 
